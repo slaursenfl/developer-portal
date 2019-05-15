@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98d0ee57-4cd7-4492-86ea-6b0466a6e66a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dev-portal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/api-responses.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docsearch.config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/access-token.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/dot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/frontline-symbol.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Apis.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Support.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/mstile-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/mstile-310x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/mstile-310x310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/mstile-70x70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/safari-pinned-tab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_redirects" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/2018-10-10-say-hello-to-gridsome/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/2019-02-19-gridsome-05/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/2019-02-19-gridsome-05/plugins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/2019-05-10-gridsome-06/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/2019-05-10-gridsome-06/starters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contributors/contributors.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contributors/images/cosmicjs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contributors/images/cosmin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contributors/images/hjvedvik.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contributors/images/itsnwa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contributors/images/lokecarlsson.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contributors/images/tommyvedvik.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets-css.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/get-credentials.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets-fonts.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/get-an-access-token.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets-scripts.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/make-rest-api-calls.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets-svg.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/api-requests.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/basic-config.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/webhooks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/body-html-attributes.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/webhooks-verify-signature.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/client-api.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/webhooks-event-types.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/client-side-data.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/webhooks-simulate-event.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/code-of-conduct.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/webhooks-common-object-definitions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/code-splitting.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/release-notes-2019.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/components.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sdks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/config.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sdks-quickstart.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/custom-css.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/glossary.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/custom-fonts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data-store-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deploy-to-amazon-s3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deploy-to-amplify.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deploy-to-github.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deploy-to-gitlab.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deploy-to-netlify.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deploy-to-zeit-now.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deployment.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dev-tools.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/directory-structure.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/environment-variables.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/faq.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fast-by-default.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fetching-data.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/filtering-data.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/gridsome-cli.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide-comments.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide-forms.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide-netlify-cms.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide-search.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/head.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/how-it-works.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/how-to-contribute.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/how-to-create-a-plugin.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/how-to-upgrade.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/autocompletion-attribute.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/autocompletion-tag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/dynamic-pages.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/fetching-data.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/git-workflow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/graphql-explorer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/graphql.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/gridsome-build.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/gridsome-develop.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/how-it-works.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/page-structure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/path-mapping.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/template-structure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/templates.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/jamstack.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/layouts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/linking.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/overriding-index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/page-transitions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pages-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pages.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pagination.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/plugins.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/prerendering.md" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/prerequisites.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/querying-data.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/routing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/rplp-pattern.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/server-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/site-meta-data.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/starters.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/taxonomies.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/templates.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/transformer-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/troubleshooting.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/use-cases.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/add-data-from-apis.md" beforeDir="false" afterPath="$PROJECT_DIR$/examples/make-a-rest-api-call.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/create-pages-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/easy-setup.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/file-based-routing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/graphql-for-data.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/markdown-for-content.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pagination-support.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/progressive-images.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/taxonomy-pages.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/template-system.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridsome.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridsome.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/basic-setup.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/blog-page.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/data-sources.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/dev-setup.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/fonts-styles.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/go-live.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/logos/Page 1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/logos/airtable.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/logos/contentful.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/logos/cosmicjs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/logos/craftcms.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/logos/dato.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/logos/drupal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/logos/ghost.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/logos/graphcms.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/logos/markdown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/logos/prismic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/logos/sanity.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/logos/shopify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/logos/storyblok.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/logos/strapi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/logos/wordpress.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/platforms.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/style/dots-bg.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/dots-bg.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/style/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Connect.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Connect.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dots.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dots.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ecosystem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ecosystem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Examples.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Feature.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feature.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Features.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Features.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LogoAnimated.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LogoAnimated.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Newsletter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Newsletter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostCard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostMeta.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostMeta.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skeleton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skeleton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StarterCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StarterCard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeBlog.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeCommunity.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeConnect.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeExamples.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeExamples.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeFast.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeFeatures.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeFeatures.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeHowItWorkSimple.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeHowItWorkSimple.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeHowItWorks.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeIntro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeIntro.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeIntroSimple.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeIntroSimple.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeSources.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeSources.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeTabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeTabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logos/LogoRow.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/doc-links.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/doc-links.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/learn-links.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Docs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Docs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Starters.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/partials/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/partials/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/partials/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/partials/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/partials/Logo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/partials/Logo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/partials/Nav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/partials/Nav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Blog.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Ecosystem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Logo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Starters.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/BlogPost.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/Contributor.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/DocPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/DocPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/LearnPage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/Platform.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/Plugin.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/Starter.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/markdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/markdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/screenshots/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/screenshots/gridsome-blog-cosmic-js.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/screenshots/gridsome-forestry-starter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/screenshots/gridsome-starter-bleda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/screenshots/gridsome-starter-blog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/screenshots/gridsome-starter-bootstrap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/starters.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/_redirects" beforeDir="false" afterPath="$PROJECT_DIR$/static/_redirects" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logos.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logos/logo-circle-dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logos/logo-circle-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logos/logo-circle-normal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logos/logo-dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logos/logo-normal-dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logos/logo-normal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logos/only-logo-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logos/only-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/home/HomeSources.vue">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Button.vue">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Card.vue">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Connect.vue">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docsearch.config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/Index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#464#509#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/access-token.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="75">
+                <caret line="5" selection-start-line="5" selection-end-line="5" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/make-a-rest-api-call.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="180">
+                <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/home/HomeTabs.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>-large</find>
+      <find>share-alt</find>
+      <find>algolia</find>
+      <find>M348</find>
+      <find>rgb</find>
+      <find>window</find>
+      <find>&lt;a</find>
+      <find>BlogPos</find>
+      <find>\</find>
+      <find>raw</find>
+      <find>TopN</find>
+      <find>Header</find>
+      <find>pages</find>
+      <find>sideMen</find>
+      <find>docs</find>
+      <find>webpack-node-externals</find>
+      <find>contributors</find>
+      <find>allPlat</find>
+      <find>Examples</find>
+      <find>allExample</find>
+      <find>gridsomeVersion</find>
+      <find>fill</find>
+      <find>gridsome</find>
+      <find>paint9_linear</find>
+      <find>%23</find>
+      <find>24724D</find>
+      <find>logo</find>
+      <find>GridsomeLogo</find>
+      <find>cms-logos</find>
+      <find>Gridsome</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>#</replace>
+      <replace>733878</replace>
+      <replace>FrontlineSymbol</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/src</dir>
+      <dir>$PROJECT_DIR$/src/components/home</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.editorconfig" />
+        <option value="$PROJECT_DIR$/src/pages/Logo.vue" />
+        <option value="$PROJECT_DIR$/src/layouts/Default.vue" />
+        <option value="$PROJECT_DIR$/src/components/Card.vue" />
+        <option value="$PROJECT_DIR$/src/components/Connect.vue" />
+        <option value="$PROJECT_DIR$/src/components/logos/LogoRow.vue" />
+        <option value="$PROJECT_DIR$/docs/glossary.md" />
+        <option value="$PROJECT_DIR$/src/pages/Support.vue" />
+        <option value="$PROJECT_DIR$/src/pages/Apis.vue" />
+        <option value="$PROJECT_DIR$/src/components/home/HomeIntroSimple.vue" />
+        <option value="$PROJECT_DIR$/src/layouts/partials/Footer.vue" />
+        <option value="$PROJECT_DIR$/src/assets/images/frontline-logo.svg" />
+        <option value="$PROJECT_DIR$/src/assets/images/frontline-logo1.svg" />
+        <option value="$PROJECT_DIR$/src/layouts/partials/Logo.vue" />
+        <option value="$PROJECT_DIR$/src/assets/images/dot.svg" />
+        <option value="$PROJECT_DIR$/src/components/Section.vue" />
+        <option value="$PROJECT_DIR$/src/assets/style/dots-bg.scss" />
+        <option value="$PROJECT_DIR$/src/assets/style/vars.scss" />
+        <option value="$PROJECT_DIR$/docs/index.md" />
+        <option value="$PROJECT_DIR$/src/layouts/partials/Header.vue" />
+        <option value="$PROJECT_DIR$/src/components/SearchForm.vue" />
+        <option value="$PROJECT_DIR$/src/layouts/partials/Nav.vue" />
+        <option value="$PROJECT_DIR$/docs/api-requests.md" />
+        <option value="$PROJECT_DIR$/docs/api-responses.md" />
+        <option value="$PROJECT_DIR$/docs/get-credentials.md" />
+        <option value="$PROJECT_DIR$/docs/make-rest-api-calls.md" />
+        <option value="$PROJECT_DIR$/docs/get-an-access-token.md" />
+        <option value="$PROJECT_DIR$/docs/webhooks.md" />
+        <option value="$PROJECT_DIR$/docs/webhooks-common-object-definitions.md" />
+        <option value="$PROJECT_DIR$/docs/webhooks-event-types.md" />
+        <option value="$PROJECT_DIR$/docs/webhooks-simulate-event.md" />
+        <option value="$PROJECT_DIR$/docs/webhooks-verify-signature.md" />
+        <option value="$PROJECT_DIR$/docs/sdks-quickstart.md" />
+        <option value="$PROJECT_DIR$/src/layouts/Docs.vue" />
+        <option value="$PROJECT_DIR$/examples/file-based-routing.md" />
+        <option value="$PROJECT_DIR$/src/components/home/HomeExamples.vue" />
+        <option value="$PROJECT_DIR$/src/components/home/HomeCommunity.vue" />
+        <option value="$PROJECT_DIR$/gridsome.server.js" />
+        <option value="$PROJECT_DIR$/src/data/doc-links.yaml" />
+        <option value="$PROJECT_DIR$/src/components/home/HomeHowItWorkSimple.vue" />
+        <option value="$PROJECT_DIR$/src/components/home/HomeFeatures.vue" />
+        <option value="$PROJECT_DIR$/docs/sdks.md" />
+        <option value="$PROJECT_DIR$/docs/release-notes-2019.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/static/_redirects" />
+        <option value="$PROJECT_DIR$/src/components/home/HomeIntro.vue" />
+        <option value="$PROJECT_DIR$/src/pages/Index.vue" />
+        <option value="$PROJECT_DIR$/examples/access-token.md" />
+        <option value="$PROJECT_DIR$/examples/make-a-rest-api-call.md" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/docsearch.config.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="164" />
+    <option name="y" value="65" />
+    <option name="width" value="1278" />
+    <option name="height" value="1340" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dev-portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dev-portal" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553088175582" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/utils" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/layouts/partials" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/logos" />
+      <recent name="$PROJECT_DIR$/src/data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98d0ee57-4cd7-4492-86ea-6b0466a6e66a" name="Default Changelist" comment="" />
+      <created>1552321492699</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552321492699</updated>
+      <workItem from="1552321493959" duration="5566000" />
+      <workItem from="1552484714971" duration="3673000" />
+      <workItem from="1552492879585" duration="528000" />
+      <workItem from="1552493461509" duration="10052000" />
+      <workItem from="1552661562016" duration="3017000" />
+      <workItem from="1552673467971" duration="9989000" />
+      <workItem from="1552912153871" duration="795000" />
+      <workItem from="1552934124126" duration="6240000" />
+      <workItem from="1553020990837" duration="1120000" />
+      <workItem from="1553103876397" duration="313000" />
+      <workItem from="1553609302747" duration="569000" />
+      <workItem from="1554296089089" duration="2222000" />
+      <workItem from="1554754673370" duration="176000" />
+      <workItem from="1554831488416" duration="9000" />
+      <workItem from="1554995852983" duration="1261000" />
+      <workItem from="1555506044879" duration="2892000" />
+      <workItem from="1555704753874" duration="2458000" />
+      <workItem from="1556054353286" duration="18000" />
+      <workItem from="1557491991183" duration="6792000" />
+      <workItem from="1557517405206" duration="5852000" />
+      <workItem from="1557761591849" duration="10140000" />
+      <workItem from="1557925475781" duration="2047000" />
+      <workItem from="1557928581447" duration="1329000" />
+      <workItem from="1557929938208" duration="3215000" />
+      <workItem from="1557933646836" duration="12907000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="93180000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1257" height="1440" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29547325" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32919708" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329927" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" weight="0.329927" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.41459855" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34615386" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32920355" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/docs/webhooks-common-object-definitions.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="27" selection-start-column="27" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/webhooks-event-types.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="13" selection-start-column="13" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/webhooks-simulate-event.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="16" selection-start-column="16" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/webhooks-verify-signature.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="18" selection-start-column="18" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/sdks-quickstart.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="12" selection-start-column="12" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/Docs.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/logos/LogoRow.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/Default.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="e#225#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.temp/routes.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Ecosystem.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Logo.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/logos.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/graphql-for-data.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/create-pages-api.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <folding>
+              <element signature="n#!!doc" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/easy-setup.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/file-based-routing.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/markdown-for-content.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/progressive-images.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/taxonomy-pages.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Examples.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/HomeCommunity.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gridsome.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/HomeHowItWorks.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#3388#3447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Apis.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/partials/Logo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/partials/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-865">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#nav#0;n#LazyHydrate#2;n#div#1;n#header#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#1556#1601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/doc-links.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/sdks.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/release-notes-2019.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_redirects">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/_redirects">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/HomeConnect.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/HomeFast.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/frontline-symbol.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/frontline-logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/HomeHowItWorkSimple.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1467">
+          <caret line="165" column="31" selection-start-line="165" selection-start-column="24" selection-end-line="165" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/home-logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/HomeIntro.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="166" column="19" selection-start-line="166" selection-start-column="19" selection-end-line="166" selection-end-column="19" />
+          <folding>
+            <element signature="e#1504#1562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/HomeFeatures.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-310">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/HomeExamples.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/HomeTabs.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#464#509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/access-token.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/make-a-rest-api-call.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/HomeSources.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Button.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Card.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Connect.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docsearch.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

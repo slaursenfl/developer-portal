@@ -1,0 +1,48 @@
+- title: Introduction
+  items:
+    - title: Getting started
+      link: /docs
+    - title: Get Credentials
+      link: /docs/get-credentials
+    - title: Get an Access Token
+      link: /docs/get-an-access-token
+    - title: Make REST API Calls
+      link: /docs/make-rest-api-calls
+
+- title : API Basics
+  items:
+    - title: API Requests
+      link: /docs/api-requests
+    - title: API Responses
+      link: /docs/api-responses
+
+- title : Webhooks
+  items:
+      - title: Webhooks
+        link: /docs/webhooks
+      - title: Verify webhook signature
+        link: /docs/webhooks-verify-signature
+      - title: Webhooks event types
+        link: /docs/webhooks-event-types
+      - title: Simulate event
+        link: /docs/webhooks-simulate-event
+      - title: Common Object Definitions
+        link: /docs/webhooks-common-object-definitions
+
+- title : Release Notes
+  items:
+    - title: 2019
+      link: /docs/release-notes-2019
+
+- title : SDKS
+  items:
+    - title: SDKs
+      link: /docs/sdks
+    - title: SDK Quickstart
+      link: /docs/sdks-quickstart
+
+- title : Glossary
+  items:
+    - title: Glossary
+      link: /docs/glossary
+

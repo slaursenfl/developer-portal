@@ -1,0 +1,2 @@
+# Internal redirection (if pages are deprecated or removed)
+/docs/image /docs/images 301
